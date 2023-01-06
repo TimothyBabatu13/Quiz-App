@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#number-container{
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+}
+#question-container{
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.answer-btn, #next{
+  display: block;
+  margin: 10px;
+  width: 95%;
+  text-align: left;
+  padding: 15px 10px;
+  border: none;
+  background: #0557;
+  color: white;
+}
+#next{
+  text-align: center;
+  background: red;
+}
+
+.hide{
+  display: none;
+}
